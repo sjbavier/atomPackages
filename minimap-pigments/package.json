@@ -1,0 +1,118 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/c_/hmns_by56256c1_483ykp5nxj_2kq5/T/d-117722-15582-1r9id37.ixine6zuxr/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/c_/hmns_by56256c1_483ykp5nxj_2kq5/T/d-117722-15582-1r9id37.ixine6zuxr/package.tgz",
+        "spec": "/private/var/folders/c_/hmns_by56256c1_483ykp5nxj_2kq5/T/d-117722-15582-1r9id37.ixine6zuxr/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/c_/hmns_by56256c1_483ykp5nxj_2kq5/T/apm-install-dir-117722-15582-yim4qc.vi5ltsm7vi"
+    ]
+  ],
+  "_from": "../d-117722-15582-1r9id37.ixine6zuxr/package.tgz",
+  "_id": "minimap-pigments@0.2.2",
+  "_inCache": true,
+  "_location": "/minimap-pigments",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/c_/hmns_by56256c1_483ykp5nxj_2kq5/T/d-117722-15582-1r9id37.ixine6zuxr/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/c_/hmns_by56256c1_483ykp5nxj_2kq5/T/d-117722-15582-1r9id37.ixine6zuxr/package.tgz",
+    "spec": "/private/var/folders/c_/hmns_by56256c1_483ykp5nxj_2kq5/T/d-117722-15582-1r9id37.ixine6zuxr/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117722-15582-1r9id37.ixine6zuxr/package.tgz",
+  "_shasum": "fa6abb5dfc73f1e56c1d700e16720eb4655252b3",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/c_/hmns_by56256c1_483ykp5nxj_2kq5/T/d-117722-15582-1r9id37.ixine6zuxr/package.tgz",
+  "_where": "/private/var/folders/c_/hmns_by56256c1_483ykp5nxj_2kq5/T/apm-install-dir-117722-15582-yim4qc.vi5ltsm7vi",
+  "bugs": {
+    "url": "https://github.com/abe33/minimap-pigments/issues"
+  },
+  "consumedServices": {
+    "minimap": {
+      "versions": {
+        "1.0.0": "consumeMinimapServiceV1"
+      }
+    },
+    "pigments.api": {
+      "versions": {
+        "1.0.0": "consumePigmentsServiceV1"
+      }
+    }
+  },
+  "dependencies": {
+    "event-kit": ">= 0.7.2"
+  },
+  "description": "An Atom plugin to display pigments colors in the Minimap.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/abe33/minimap-pigments#readme",
+  "keywords": [
+    "minimap",
+    "pigments",
+    "colors",
+    "palette"
+  ],
+  "license": "MIT",
+  "main": "./lib/minimap-pigments",
+  "name": "minimap-pigments",
+  "optionalDependencies": {},
+  "readme": "# minimap-pigments package [![Build Status](https://travis-ci.org/abe33/minimap-pigments.svg?branch=master)](https://travis-ci.org/abe33/minimap-pigments)\n\nAn Atom plugin to display pigments colors in the Minimap.\n\n![Screenshot](https://github.com/abe33/minimap-pigments/blob/master/screenshot.png?raw=true)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abe33/minimap-pigments.git"
+  },
+  "version": "0.2.2",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "event-kit",
+        "version": "2.3.0",
+        "path": "node_modules/event-kit/lib/event-kit.js"
+      }
+    ],
+    "extensions": {
+      ".coffee": [
+        "lib/minimap-pigments-binding.coffee",
+        "lib/minimap-pigments.coffee"
+      ],
+      ".json": [
+        "node_modules/event-kit/api.json",
+        "node_modules/event-kit/package.json",
+        "package.json"
+      ],
+      ".js": [
+        "node_modules/event-kit/lib/composite-disposable.js",
+        "node_modules/event-kit/lib/disposable.js",
+        "node_modules/event-kit/lib/emitter.js",
+        "node_modules/event-kit/lib/event-kit.js"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "lib",
+          "",
+          "spec"
+        ],
+        "dependencies": {
+          "event-kit": ">= 0.7.2"
+        }
+      }
+    ]
+  }
+}

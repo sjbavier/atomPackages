@@ -1,0 +1,68 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/c_/hmns_by56256c1_483ykp5nxj_2kq5/T/d-117722-16071-9ptcjx.saq13gzaor/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/c_/hmns_by56256c1_483ykp5nxj_2kq5/T/d-117722-16071-9ptcjx.saq13gzaor/package.tgz",
+        "spec": "/private/var/folders/c_/hmns_by56256c1_483ykp5nxj_2kq5/T/d-117722-16071-9ptcjx.saq13gzaor/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/c_/hmns_by56256c1_483ykp5nxj_2kq5/T/apm-install-dir-117722-16071-dav79.j4a2vmfgvi"
+    ]
+  ],
+  "_from": "../d-117722-16071-9ptcjx.saq13gzaor/package.tgz",
+  "_id": "language-freemarker@0.2.0",
+  "_inCache": true,
+  "_location": "/language-freemarker",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/c_/hmns_by56256c1_483ykp5nxj_2kq5/T/d-117722-16071-9ptcjx.saq13gzaor/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/c_/hmns_by56256c1_483ykp5nxj_2kq5/T/d-117722-16071-9ptcjx.saq13gzaor/package.tgz",
+    "spec": "/private/var/folders/c_/hmns_by56256c1_483ykp5nxj_2kq5/T/d-117722-16071-9ptcjx.saq13gzaor/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117722-16071-9ptcjx.saq13gzaor/package.tgz",
+  "_shasum": "13d18a2735e7da56d56cdb2d5ec05db0622ca576",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/c_/hmns_by56256c1_483ykp5nxj_2kq5/T/d-117722-16071-9ptcjx.saq13gzaor/package.tgz",
+  "_where": "/private/var/folders/c_/hmns_by56256c1_483ykp5nxj_2kq5/T/apm-install-dir-117722-16071-dav79.j4a2vmfgvi",
+  "bugs": {
+    "url": "https://github.com/niltonheck/language-freemarker/issues"
+  },
+  "dependencies": {},
+  "description": "Adds syntax highlighting of Freemarker files in Atom.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/niltonheck/language-freemarker#readme",
+  "license": "MIT",
+  "name": "language-freemarker",
+  "optionalDependencies": {},
+  "readme": "# Freemarker language support in Atom\n\nAdds syntax highlighting and snippets to Freemarker files in Atom.\n\nOriginally [converted](http://atom.io/docs/latest/converting-a-text-mate-bundle)\nfrom the [Freemarker TextMate bundle](https://github.com/briancavalier/textmate-freemarker-bundle).\n\nContributions are greatly appreciated. Please fork this repository and open a\npull request to add snippets, make grammar tweaks, etc.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niltonheck/language-freemarker.git"
+  },
+  "version": "0.2.0",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}
